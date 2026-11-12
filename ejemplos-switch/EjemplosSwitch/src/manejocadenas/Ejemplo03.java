@@ -45,3 +45,7 @@ public class Ejemplo03 {
         
     }
 }
+/*
+el string.format sirve para acumular datos  de forma organizada,ordenada 
+y poder controlar como se muestran los msimos
+*/
