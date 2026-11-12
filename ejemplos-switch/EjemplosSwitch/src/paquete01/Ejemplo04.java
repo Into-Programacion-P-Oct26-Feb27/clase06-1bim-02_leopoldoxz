@@ -5,6 +5,7 @@
  */
 package paquete01;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 /**
@@ -16,11 +17,12 @@ public class Ejemplo04 {
     public static void main(String[] args) {
         //
         Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
         int opcion;
         double radianes;
         double resultado;
         
-        resultado = 0;
+        resultado = 1000;
         System.out.println("Ingrese la opción trigonométrica.\n"
                 + "1 seno\n"
                 + "2 coseno\n"
